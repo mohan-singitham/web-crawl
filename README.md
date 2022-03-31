@@ -1,4 +1,4 @@
-###Start running Server
+### Start running Server
 Once you clone the project, Go to your terminal and enter these
 
 1. sbt
@@ -9,7 +9,7 @@ now the server is running you can curl the API from another terminal,
 and you can see the result.
 
 
-###How to test:
+### How to test:
 #####
 curl -H "Content-Type: application/json" -X POST -d '{"urls": ["https://google.com", "https://github.com"]}' http://localhost:8080/api/crawl
 
